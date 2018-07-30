@@ -1,12 +1,13 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/logs/logs",
     "pages/mine/mine",
-    "pages/details/details",
-    "pages/logs/logs"
+    "pages/details/details"
+
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"black",
     "navigationBarBackgroundColor": "#f3f4f8",
     "navigationBarTextStyle":"black",
     "navigationBarTitleText": "首页"
