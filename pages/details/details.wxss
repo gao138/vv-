@@ -1,0 +1,126 @@
+.container{
+  background: #fff;
+  min-height: 100%;
+}
+.container .bookName,
+.container .briefIntroduction,
+.container .catalog .all{
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.container .bookName{
+  display: flex;
+  align-items: center;
+  padding-top: 34rpx;
+  padding-bottom: 48rpx;
+  color: #8a8a8c;
+  font-size: 17rpx;
+}
+.container .bookName .left image{
+  width: 156rpx;
+  height: 207rpx;
+  border-radius: 4rpx;
+}
+.container .bookName .left,
+.container .bookName .right{
+  height: 207rpx;
+}
+.container .bookName .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 44rpx;
+}
+.container .bookName .right .tt{
+  font-size: 33rpx;
+  font-weight: bold;
+  color: #000;
+}
+.container .bookName .right .aut{
+  font-size: 22rpx;
+}
+.container .bookName .chapter{
+  margin-bottom: 0;
+  margin-top: auto;
+  font-size: 18rpx;
+}
+.container .readBtn{
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+.container .readBtn a{
+  display: inline-block;
+  width: 493rpx;
+  height: 72rpx;
+  background: #3dc1ff;
+  color: #fff;
+  border-radius: 36rpx;
+  line-height: 72rpx;
+  font-size: 32rpx;
+}
+.container .briefIntroduction .content{
+  line-height: 51rpx;
+  font-size: 30rpx;
+  color: #8a8a8c;
+  text-align: justify;
+}
+.container .briefIntroduction .open{
+  color: #41a8d9;
+  font-size: 22rpx;
+  text-align: right;
+}
+.container .catalog .all span:first-child{
+  font-size: 34rpx;
+  color: #185470;
+  font-weight: bold;
+}
+.container .catalog .all span:last-child{
+  font-size: 28rpx;
+  color: #919191;
+  padding-left: 10rpx;
+}
+.container .catalog .new{
+  width: 689rpx;
+  height: 80rpx;
+  background: #ffe9d4;
+  color: #dc6e24;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 28rpx;
+  border-radius: 12rpx;
+  margin-top: 40rpx;
+  border: 1px solid #f8d0a8;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.container .catalog .new view:first-child{
+  width: 0;
+  height: 0;
+  border-width: 23rpx;
+  border-style: solid;
+  border-color: transparent transparent #ffe9d4 transparent;
+  position: absolute;
+  top: -40rpx;
+  left: 23rpx;
+  z-index: 10;
+}
+.container .catalog .new view:last-child{
+  width: 0;
+  height: 0;
+  border-width: 24rpx;
+  border-style: solid;
+  border-color: transparent transparent #f8d0a8 transparent;
+  position: absolute;
+  top: -46rpx;
+  left: 21rpx;
+}
+.container .catalog .list ul li{
+  height: 80rpx;
+  border-bottom: 4rpx solid #f3f4f8;
+  display: block; 
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #666c88;
+  padding:0 30rpx;
+}

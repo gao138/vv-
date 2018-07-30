@@ -6,4 +6,7 @@ page{
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  }
+}
+page{
+  background: #f3f4f8;
+}

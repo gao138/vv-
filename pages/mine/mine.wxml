@@ -1,0 +1,16 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='header'>
+    <view class='userImg'><image src='../index/banner.png'></image></view>
+    <view class='userNmae'>用户名ID</view>
+    <view class='userId'>ID:12323123</view>
+  </view>
+  <view class='fnList'>
+    <ul>
+      <li>余额: 0书币</li>
+      <li>充值记录</li>
+      <li>签到</li>
+      <li>阅读记录</li>
+    </ul>
+  </view>
+</view>

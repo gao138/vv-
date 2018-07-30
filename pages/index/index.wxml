@@ -8,7 +8,7 @@
           <span>最近阅读</span>
         </view>
         <view class='right'>
-          <image></image>
+          <image bindtap="toMine"></image>
         </view>
     </view>
 <!-- header end -->
@@ -20,7 +20,7 @@
 <!-- search start -->
     <view class='search'>
       <label><image src='./search.png'></image></label>
-      <input placeholder='搜索你要看的书'></input>
+      <input placeholder='搜索你要看的书' type='search'></input>
     </view>
 <!-- search end -->
 <!-- nav start -->
@@ -71,7 +71,7 @@
   <!-- hot end -->
   <!--footer start -->
     <view class='footer'wx:for="{{footerList}}" wx:key="{{index}}">
-      <view>
+      <view bindtap="toDetails">
           <view class='left'>
             <image src='./banner.png'></image>
           </view>

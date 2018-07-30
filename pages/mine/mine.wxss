@@ -1,0 +1,52 @@
+/* mine wxss */
+.container {
+  background: #fff;
+}
+.container .header .userImg,
+.container .header .userNmae,
+.container .header .userId{
+  text-align: center;
+}
+.container .header .userImg image{
+  width: 136rpx;
+  height: 136rpx;
+  border-radius: 50%;
+  margin: 45rpx 0;
+}
+.container .header .userNmae{
+  font-weight: bold;
+  font-size: 34rpx;
+}
+.container .header .userId{
+  font-size: 18rpx;
+  color: #8a8a8c;
+  line-height: 54rpx;
+}
+.container .fnList ul li:first-child{
+  border-top: 20rpx solid #f3f4f8;
+  background-image: url(https://qcloudtest-1255385697.cos.ap-guangzhou.myqcloud.com/1532941018493-gxahdeJVe.png);
+}
+.container .fnList ul li{
+  display: block;
+  height: 104rpx;
+  line-height: 104rpx;
+  background: #fff;
+  border-bottom: 20rpx solid #f3f4f8;
+  font-size: 30rpx;
+  text-indent: 150rpx;
+  background-repeat: no-repeat;
+  background-size: 58rpx 58rpx;
+  background-position-y: center;
+  background-position-x: 60rpx;
+}
+.container .fnList ul li:nth-child(2){
+  background-image: url(https://qcloudtest-1255385697.cos.ap-guangzhou.myqcloud.com/1532941267967-Tw7LQmNzB.png);
+}
+.container .fnList ul li:nth-child(3){
+  background-size: 64rpx 60rpx;
+  background-position-x: 56rpx;
+  background-image: url(https://qcloudtest-1255385697.cos.ap-guangzhou.myqcloud.com/1532941285243-tdIWAHuue.png);
+}
+.container .fnList ul li:nth-child(4){
+  background-image: url(https://qcloudtest-1255385697.cos.ap-guangzhou.myqcloud.com/1532941301180-Q4CztqzOe.png);
+}

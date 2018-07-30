@@ -1,4 +1,45 @@
 <!--details.wxml-->
-<view class="container">
-  
+<view class='container'>
+  <view class='bookName'>
+    <view class='left'>
+        <image src='../index/banner.png'></image>
+      </view>
+      <view class='right'>
+        <view class='tt'>书名书名</view>
+        <view class='aut'>作者</view>
+        <view class='chapter'>第一百八十章: 不知道名字 更新时间: 2018年1月1日</view>
+      </view>
+  </view>
+  <view class='readBtn'>
+    <a href="#">开始阅读</a>
+  </view>
+  <view class='briefIntroduction'>
+    <view class='content'>简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介</view>
+    <view class='open'>展开</view>
+  </view>
+  <view class='catalog'>
+    <view class='all'>
+      <span>目录</span>
+      <span>(共1000章)</span>
+    </view>
+    <view class='new'>最新章节: 第1000章
+      <view></view>
+      <view></view>
+    </view>
+    <view class='list'>
+      <ul>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>
+        <li>第一章 名字</li>       
+      </ul>
+    </view>
+  </view>
 </view>
+
