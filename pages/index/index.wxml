@@ -1,0 +1,87 @@
+<!--index.wxml-->
+
+<!-- header start -->
+    <view class='header'>
+        <view class='left'>
+          <span>男生</span>
+          <span>女生</span>
+          <span>最近阅读</span>
+        </view>
+        <view class='right'>
+          <image></image>
+        </view>
+    </view>
+<!-- header end -->
+<!-- banner statrt -->
+    <view class='banner'>
+      <image src='./banner.png'></image>
+    </view>
+<!-- banner end -->
+<!-- search start -->
+    <view class='search'>
+      <label><image src='./search.png'></image></label>
+      <input placeholder='搜索你要看的书'></input>
+    </view>
+<!-- search end -->
+<!-- nav start -->
+    <view class='nav'>
+        <view>
+            <span><image src='./nav-1.png'></image></span>
+            <span>分类</span>
+        </view>
+        <view>
+            <span><image src='./nav-2.png'></image></span>
+            <span>免费</span>
+        </view>
+        <view>
+            <span><image src='./nav-3.png'></image></span>
+            <span>完本</span>
+        </view>
+        <view>
+            <span><image src='./nav-4.png'></image></span>
+            <span>账户充值</span>
+        </view>
+    </view>
+  <!-- nav end -->
+  <!-- hot start -->
+    <view class='hot' wx:for="{{hotList}}" wx:key="{{index}}">
+      <view class='title'>
+        <text>本周强推</text>
+        <a href="javascript:;">更多</a>
+      </view>
+      <view class='book'>
+        <view>
+          <span><image src='./banner.png'></image></span>
+          <span>书名书名</span>
+        </view>
+        <view>
+          <span><image src='./banner.png'></image></span>
+          <span>书名书名</span>
+        </view>
+        <view>
+          <span><image src='./banner.png'></image></span>
+          <span>书名书名</span>
+        </view>
+        <view>
+          <span><image src='./banner.png'></image></span>
+          <span>书名书名</span>
+        </view>
+      </view>
+    </view>
+  <!-- hot end -->
+  <!--footer start -->
+    <view class='footer'wx:for="{{footerList}}" wx:key="{{index}}">
+      <view>
+          <view class='left'>
+            <image src='./banner.png'></image>
+          </view>
+          <view class='right'>
+            <view class='tt'>书名书名</view>
+            <view class='aut'>作者</view>
+            <view class='introduce'>简介的速度解决客户电话四季度后开始大家还是不买社保比较快睡吧即可不舍得都是离开家里空间</view>
+            <view class='chapter'>第一百八十章:不知道名字 更新时间:2018年1月1日</view>
+          </view>
+      </view>
+    </view> 
+<!-- footer end -->
+

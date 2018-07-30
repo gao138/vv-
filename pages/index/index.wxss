@@ -1,0 +1,156 @@
+/**index.wxss**/
+page{
+  background: #f3f4f8;
+}
+page .header{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+page .header .left{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60rpx 0 31rpx;
+}
+page .header .left span{
+  border-bottom: 4rpx solid #42a2eb;
+  font-size: 26rpx;
+  display: inline-block;
+  width: 125rpx;
+  height: 55rpx;
+  text-align: center;
+  font-weight: bold;
+}
+page .header .right{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+page .header .right image{
+  width: 74rpx;
+  height: 74rpx;
+  border-radius: 50%;
+  background: #ccc;
+}
+page .banner {
+  width: 100%;
+}
+page .banner image{
+  width: 100%;
+  height: 284rpx;
+}
+page .search{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16rpx;
+  margin-bottom:21rpx;
+  width: 684rpx;
+  border-radius: 35rpx;
+  height: 72rpx;
+  border: 1px solid #b6b6b6;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+page .search label image{
+   width: 45rpx;
+  height: 45rpx;
+  margin: 0 12rpx 0 29rpx;
+}
+page .search input{
+  font-size: 27rpx;
+  width: 559rpx;
+}
+page .nav{
+  display: flex;
+  height: 197rpx;
+  background: #fff;
+  align-items: center;
+}
+page .nav view{
+  width: 25%;
+  text-align: center;
+}
+page .nav view span{
+  display: block;
+  width: 100%;
+  font-size: 22rpx;
+}
+page .nav view span:first-child image{
+  width: 93rpx;
+  height: 93rpx;
+}
+page .hot{
+  margin-top: 23rpx;
+  background: #fff;
+  padding: 0 30rpx;
+}
+page .hot .title{
+  display: flex;
+  height: 84rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+page .hot .title text{
+  font-size: 28rpx;
+  font-weight: bold;
+}
+page .hot .title a{
+  color: #868686;
+  font-size: 22rpx;
+  vertical-align: middle;
+}
+page .book{
+  display: flex;
+}
+page .book view{
+  width: 25%;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 60rpx;
+}
+/* 书图片 */
+page .book span:first-child image,
+page .footer .left image{
+  width: 156rpx;
+  height: 207rpx;
+  border-radius: 4rpx;
+}
+page .footer{
+  background: #fff;
+  padding: 0 30rpx; 
+  margin-bottom: 4rpx;
+  color: #8a8a8c;
+  font-size: 17rpx;
+}
+page .footer>view{
+  padding-top:29rpx;
+  padding-bottom: 25rpx; 
+  display: flex;
+  align-items: center;
+}
+page .footer .left,
+page .footer .right{
+  height: 207rpx;
+}
+page .footer .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 44rpx;
+}
+page .footer .right .tt{
+  font-size: 33rpx;
+  font-weight: bold;
+  color: #000;
+}
+page .footer .right .aut{
+  font-size: 22rpx;
+}
